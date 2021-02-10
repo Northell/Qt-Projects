@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="Android">Resources/Images/kisspng-android-computer-icons-5af275b6018878.3049544115258392860063.png</file>
+        <file alias="Windows">Resources/Images/kisspng-n-windows-8-computer-icons-microsoft-windows-10-5b3232d1a67877.6433330715300164656819.png</file>
+        <file alias="MacOs">Resources/Images/pngwing.com.png</file>
+        <file alias="Linux">Resources/Images/Linux.png</file>
+    </qresource>
+</RCC>
