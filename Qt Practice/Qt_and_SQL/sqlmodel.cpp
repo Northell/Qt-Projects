@@ -4,6 +4,7 @@
 SQLModel::SQLModel(QSqlQuery* query, QObject *parent) : QAbstractTableModel(parent)
 
 {
+    m_hash.clear();         //Чистим, если был не пустой
     m_nColumns = 0;
     m_nRows = 0;
     const int MAX_nColumns =8;
