@@ -1,7 +1,18 @@
 #include <QtWidgets>
 
 //Листинг 18.1-18.19 Рисование двумя объектами Qpainter в одном контексте
-/*mywidget.h*/
+#include "mywidget.h"
+int main(int argc, char**argv)
+{
+    QApplication app(argc,argv);
+    QWidget wgt;
+    MyWidget mwgt(&wgt);
+
+    wgt.show();
+
+
+    return app.exec();
+}
 
 
 
@@ -86,7 +97,7 @@ int main(int argc, char *argv[])
 */
 
 //Листинг 18.22-18.23 Создание эффектов
-
+/*
 QLabel* lbl(QGraphicsEffect* pge)
 {
     QLabel* plbl = new QLabel();
@@ -120,3 +131,4 @@ int main (int argc, char** argv)
 
     return app.exec();
 }
+*/

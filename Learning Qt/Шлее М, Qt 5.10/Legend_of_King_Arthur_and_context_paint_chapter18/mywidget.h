@@ -4,12 +4,10 @@
 
 class MyWidget:public QWidget
 {
-private:
 
-    QWidget wgt;
 public:
     MyWidget(QWidget *pwgt = 0);
-
+protected:
     void paintEvent  (QPaintEvent*);// Листинг 18.1  Рисование двумя объектами QPainter в одном контексте
     void paintEvent1 (QPaintEvent*);// Листинг 18.2  Рисование одним объектом QPainter В двух разных контекстах
 

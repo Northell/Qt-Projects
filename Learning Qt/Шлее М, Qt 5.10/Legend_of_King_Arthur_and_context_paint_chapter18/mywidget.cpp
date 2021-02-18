@@ -1,30 +1,27 @@
 #include "mywidget.h"
 
 
-MyWidget::MyWidget(QWidget *pwgt):wgt(pwgt)
+MyWidget::MyWidget(QWidget *pwgt):QWidget(pwgt)
 {
-
-
-
 
 }
 
 //18.1
-void MyWidget::paintEvent(QPaintEvent *)
-{
-    QPainter painter1;
-    QPainter painter2;
+//void MyWidget::paintEvent(QPaintEvent *)
+//{
+//    QPainter painter1;
+//    QPainter painter2;
 
-    painter1.begin(this);
-    //Команды рисования
-    painter1.end();
+//    painter1.begin(this);
+//    //Команды рисования
+//    painter1.end();
 
-    painter2.begin(this);
-    //Команды рисования
-    painter2.end();
+//    painter2.begin(this);
+//    //Команды рисования
+//    painter2.end();
 
 
-}
+//}
 
 
 //18.2
