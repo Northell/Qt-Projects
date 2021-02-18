@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="mov.gif">resources/animation/AmongUs1.gif</file>
+        <file alias="mov.svg">resources/SVG/among-us.svg</file>
+    </qresource>
+</RCC>
