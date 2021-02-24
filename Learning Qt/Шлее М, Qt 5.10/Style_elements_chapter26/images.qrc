@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="btn.bmp">resources/images/btn.bmp</file>
+        <file alias="btnprs.bmp">resources/images/btnprs.bmp</file>
+        <file alias="style.qss">style.qss</file>
+    </qresource>
+</RCC>
