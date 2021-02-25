@@ -3,6 +3,7 @@ QT += gui
 QT += widgets
 QT += sql
 
+
 QT_DEBUG_PLUGINS =1
 
 CONFIG += c++11 console
@@ -22,7 +23,8 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-RESOURCES +=
+RESOURCES += \
+    icons.qrc
 
 HEADERS += \
     mainwindow.h \

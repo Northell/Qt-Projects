@@ -6,6 +6,7 @@
 
 #include "sqlmodel.h"
 
+
 class MainWindow: public QWidget
 {
     Q_OBJECT
@@ -14,7 +15,13 @@ private:
 
     QTableView*  tbl;
     SQLModel*    model;
+
+    QLabel*      lbl;
     QPushButton* btnOk;
+    QCheckBox*   enabledValues;     //отображение данных
+    QTextEdit*   txt;
+
+    QVBoxLayout* layout;
 
 
 
@@ -24,9 +31,7 @@ public slots:
 public:
     MainWindow(QWidget* pwgt =0);
 
-    bool checkEqual (QString str);
-
-
+    QStringList ParsingHeader(QString str);
 
 
 };

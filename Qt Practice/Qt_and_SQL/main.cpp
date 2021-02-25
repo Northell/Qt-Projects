@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
    QApplication app (argc,argv);
    QWidget wgt;
    MainWindow *window = new MainWindow(&wgt);
-   wgt.resize(window->size());
+   wgt.resize(640,480);
    wgt.show();
 
 
