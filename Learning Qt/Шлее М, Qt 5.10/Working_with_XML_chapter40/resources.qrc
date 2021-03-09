@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="addressbook.xml">resources/dataBases/addressbook.xml</file>
+    </qresource>
+</RCC>
