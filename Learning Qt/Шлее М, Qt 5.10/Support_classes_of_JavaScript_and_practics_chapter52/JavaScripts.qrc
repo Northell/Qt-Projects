@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="script.js">script.js</file>
+        <file alias="script1.js">script1.js</file>
+    </qresource>
+</RCC>
