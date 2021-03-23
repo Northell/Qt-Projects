@@ -1,0 +1,24 @@
+<?xml version = "1.0?>
+<CDs>
+    <CD>
+        <artist> Amarante</artist>
+        <album> Amarante</album>
+        <year>2011</year>
+        <cover>qrc:/RedGuy</cover>
+   </CD>
+
+<CD>
+    <artist> Dark Princess</artist>
+    <album> Without You</album>
+    <year>2011</year>
+    <cover>qrc:/Image1</cover>
+</CD>
+
+<CD>
+    <artist> Within Templation</artist>
+    <album> The Unforgiving</album>
+    <year>2011</year>
+    <cover>qrc:/RedGuy</cover>
+</CD>
+
+</CDs>
