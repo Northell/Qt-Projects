@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/post_mobile_1">
-        <file alias="tobject">E:/SM/pgsql/data/base/24814/25295</file>
-        <file alias="tobject_fsm">E:/SM/pgsql/data/base/24814/25295_fsm</file>
-        <file alias="db">database.db3</file>
-    </qresource>
-</RCC>

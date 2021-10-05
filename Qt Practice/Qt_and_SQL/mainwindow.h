@@ -6,7 +6,9 @@
 
 #include "sqlmodel.h"
 
-
+/*
+ * Main Window
+ */
 class MainWindow: public QWidget
 {
     Q_OBJECT
@@ -18,13 +20,10 @@ private:
 
     QLabel*      lbl;
     QPushButton* btnOk;
-    QCheckBox*   enabledValues;     //отображение данных
+    QCheckBox*   enabledValues;     //Show Data
     QTextEdit*   txt;
 
     QVBoxLayout* layout;
-
-
-
 
 public slots:
     void slotBtnClicked();
@@ -32,8 +31,6 @@ public:
     MainWindow(QWidget* pwgt =0);
 
     QStringList ParsingHeader(QString str);
-
-
 };
 
 #endif // MAINWINDOW_H
